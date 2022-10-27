@@ -5,9 +5,9 @@ import github from '../components/assets/Icon.svg'
 const Socials = () => {
   return (
     <div className='icons'>
-        <a href=''id='slack'><img src={slack} /></a>
+        <a href='sammydepoj'id='slack'><img src={slack} /></a>
 
-        <a href=''id='github'><img src={github} /></a>
+        <a href='https://github.com/Sammydepoj'id='github'><img src={github} /></a>
     </div>
   )
 }
