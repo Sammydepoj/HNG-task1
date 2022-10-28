@@ -6,9 +6,9 @@ import zuriLogo from '../components/assets/zurilogo.svg'
 const Footer = () => {
   return (
     <div className='footer-icons'>
-        <img src={zuriLogo} />
-        <img src={footerText} />
-        <img src ={I4G} />
+        <img src={zuriLogo} alt='zuri logo'/>
+        <img src={footerText} alt='hng-task' />
+        <img src ={I4G} alt='i4g logo' />
 
     </div>
   )

@@ -5,9 +5,12 @@ import Header from './components/Header';
 import Socials from './components/Socials';
 
 function App() {
+  // Slack username ='Sammydepoj'
   return (
     <div className="App">
       <Header/>
+
+      <input type={'text'} hidden id='slack' value={'Sammydepoj'} />
 
       <div className ="container">
       <Button text='Twitter Link' page = 'https://www.twitter.com/sammydepoj' identity = 'twitter'/>

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf0c3ff3.css",
+    "main.js": "/static/js/main.8560beda.js",
+    "static/media/I4G.svg": "/static/media/I4G.601ff0479d970c740e8b7d7ba7821548.svg",
+    "static/media/user.svg": "/static/media/user.0bf2cf9f59f9d289d55b9e6352476d64.svg",
+    "static/media/Footer text.svg": "/static/media/Footer text.7e5f2b13610eb170bc8e6f9354860439.svg",
+    "static/media/zurilogo.svg": "/static/media/zurilogo.0f8c3aa843c87d1f28aa0826858bd0ef.svg",
+    "static/media/slack.svg": "/static/media/slack.a9d197106892a785eeb5d38157f825b1.svg",
+    "static/media/Icon.svg": "/static/media/Icon.6a40f212828370260b880b93f8d36b56.svg",
+    "static/media/sharebtn1.svg": "/static/media/sharebtn1.8b4369de8ab30a8ae240d027dafeccf0.svg",
+    "index.html": "/index.html",
+    "main.bf0c3ff3.css.map": "/static/css/main.bf0c3ff3.css.map",
+    "main.8560beda.js.map": "/static/js/main.8560beda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf0c3ff3.css",
+    "static/js/main.8560beda.js"
+  ]
+}
