@@ -10,7 +10,7 @@ const Header = () => {
         <img className='share' title='Share' src={share} alt='' />
         <img className='share2' title='Share' src={sharemobile} alt='' />
 
-        <img id={'profile_img'} src={userPic} alt='' />
+        <img id={'profile__img'} src={userPic} alt='' />
         <p id={'twitter'}className="userName">Sammydepoj</p>
     </div>
   )
