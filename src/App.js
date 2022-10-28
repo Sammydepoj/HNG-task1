@@ -15,10 +15,10 @@ function App() {
       <div className ="container">
       <Button text='Twitter Link' page = 'https://www.twitter.com/sammydepoj' identity = 'twitter'/>
       <Button text='Zuri books' page = 'https://books.zuri.team' identity = 'books'/>
-      <Button text='Zuri Team' page = 'https://training.zuri.team' identity = 'btn_zuri'/>
-      <Button text='Python Books' page = 'https://books.zuri.team/python-for-beginners?ref_id=sammydepoj' identity = 'book_python'/>
+      <Button text='Zuri Team' page = 'https://training.zuri.team' identity = 'btn__zuri'/>
+      <Button text='Python Books' page = 'https://books.zuri.team/python-for-beginners?ref_id=sammydepoj' identity = 'book__python'/>
       <Button text='Background Check for Coders' page = 'https://backgroundcheck.zuri.team' identity = 'pitch'/>
-      <Button text='Design Books' page = 'https://books.zuri.team/design-rules' identity = 'book_design'/>
+      <Button text='Design Books' page = 'https://books.zuri.team/design-rules' identity = 'book__design'/>
       </div>
 
       <Socials/>
