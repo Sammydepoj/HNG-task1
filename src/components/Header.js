@@ -7,10 +7,10 @@ import sharemobile from '../components/assets/sharebtn2.png'
 const Header = () => {
   return (
     <div className="Header">
-        <img className='share' title='Share' src={share} alt='' />
-        <img className='share2' title='Share' src={sharemobile} alt='' />
+        <img className='share' title='Share' src={share} alt='share button' />
+        <img className='share2' title='Share' src={sharemobile} alt=' share button' />
 
-        <img id={'profile__img'} src={userPic} alt='' />
+        <img id={'profile__img'} src={userPic} alt='profile image' />
         <p id={'twitter'}className="userName">Sammydepoj</p>
     </div>
   )
