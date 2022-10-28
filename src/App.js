@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <Header/>
 
-      <input type={'text'} hidden id='slack' value={'Sammydepoj'} />
+      {/* <input type={'text'} hidden id='slack' value={'Sammydepoj'} /> */}
+      <p id='slack'>Sammydepoj</p>
 
       <div className ="container">
       <Button text='Twitter Link' page = 'https://www.twitter.com/sammydepoj' identity = 'twitter'/>

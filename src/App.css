@@ -20,6 +20,9 @@
   cursor: pointer;
   right: 20%;
 }
+#id{
+  display:none;
+}
 .userName{
   font-family: 'Inter';
   font-style: normal;
