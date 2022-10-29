@@ -38,7 +38,7 @@ function App() {
         <a className='links' href='https://books.zuri.team/python-for-beginners?ref_id=sammydepoj' id='book__python' title='The only place you get affordable, understandable and easy to read books for python. check this out, you wont regret it'>Python Books</a>
       </div>
       <div className = 'link-container'>
-        <a className='links' href='https://backgroundcheck.zuri.team' id='Hiring just anyhow person as your coder is not good for your organization, let us help you to run some background checks on your prospective employes'>Background Check for Coders</a>
+        <a className='links' href='https://backgroundcheck.zuri.team' id='pitch' title='Hiring just anyhow person as your coder is not good for your organization, let us help you to run some background checks on your prospective employes'>Background Check for Coders</a>
       </div>
       <div className = 'link-container'>
         <a className='links' href='https://books.zuri.team/design-rules' id='book__design' title='Need    books to read for better understanding of how to design? We have books that can help you for FREE '>Design Books</a>
