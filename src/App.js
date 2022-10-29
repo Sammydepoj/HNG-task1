@@ -29,19 +29,19 @@ function App() {
         <a className='links' href='https://www.twitter.com/sammydepoj' id='twitter' title='link to my twitter handle'>Twitter Link</a>
       </div>
       <div className = 'link-container'>
-        <a className='links' href='https://books.zuri.team' id='books' title='Zuri books'>Zuri books</a>
+        <a className='links' href='https://books.zuri.team' id='books' title='Need a book to read in your free time or any other day? we got you. try us out today'>Zuri books</a>
       </div>
       <div className = 'link-container'>
-        <a className='links' href='https://training.zuri.team' id='btn__zuri'title='Zuri team'>Zuri Team</a>
+        <a className='links' href='https://training.zuri.team' id='btn__zuri'title='we have a team that is willing to carry out your software development, check us out today.'>Zuri Team</a>
       </div>
       <div className = 'link-container'>
-        <a className='links' href='https://books.zuri.team/python-for-beginners?ref_id=sammydepoj' id='book__python' title='Python books'>Python Books</a>
+        <a className='links' href='https://books.zuri.team/python-for-beginners?ref_id=sammydepoj' id='book__python' title='The only place you get affordable, understandable and easy to read books for python. check this out, you wont regret it'>Python Books</a>
       </div>
       <div className = 'link-container'>
-        <a className='links' href='https://backgroundcheck.zuri.team' id='pitch'>Background Check for Coders</a>
+        <a className='links' href='https://backgroundcheck.zuri.team' id='Hiring just anyhow person as your coder is not good for your organization, let us help you to run some background checks on your prospective employes'>Background Check for Coders</a>
       </div>
       <div className = 'link-container'>
-        <a className='links' href='https://books.zuri.team/design-rules' id='book__design' title='Design books'>Design Books</a>
+        <a className='links' href='https://books.zuri.team/design-rules' id='book__design' title='Need    books to read for better understanding of how to design? We have books that can help you for FREE '>Design Books</a>
       </div>
      
       </div>
