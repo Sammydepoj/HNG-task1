@@ -64,6 +64,9 @@
   color: #101828;
   text-decoration: none;
 }
+.link-container:hover{
+  background: #c9cbce;
+}
 .icons{
   margin: 1rem;
 }
