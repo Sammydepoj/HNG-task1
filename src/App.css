@@ -72,9 +72,10 @@
 }
 .footer-icons{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width:90%;
   flex-wrap: wrap;
-  margin: 2rem 1rem;
+  margin: 2rem;
 }
 
 .footer-icons img{

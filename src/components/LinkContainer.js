@@ -1,13 +1,12 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import userPic from '../components/assets/user.svg'
 import share from '../components/assets/sharebtn1.svg'
 import sharemobile from '../components/assets/sharebtn2.png'
 import slack from '../components/assets/slack.svg'
 import github from '../components/assets/Icon.svg'
-import I4G from '../components/assets/I4G.svg'
-import footerText from '../components/assets/Footer text.svg'
-import zuriLogo from '../components/assets/zurilogo.svg'
+import Footer from './Footer';
+
 
 const LinkContainer = () => {
   return (
@@ -45,7 +44,7 @@ const LinkContainer = () => {
         <a className='links' href='https://books.zuri.team/design-rules' id='book__design' title='Need books to read for better understanding of how to design? We have books that can help you for FREE '>Design Books</a>
       </div>
       <div className = 'link-container'>
-        <Link to ='/contact' id='contact'className='links'>Contact Me</Link>
+        <a  href='/contact' id='contact'className='links'>Contact Me</a>
       </div>
       
 
@@ -54,12 +53,8 @@ const LinkContainer = () => {
 
         <a href='https://github.com/Sammydepoj'id='github'><img src={github} alt='github-icon'/></a>
       </div>
-
-      <div className='footer-icons'>
-        <img src={zuriLogo} alt='zuri logo'/>
-        <img src={footerText} alt='hng-task' />
-        <img src ={I4G} alt='i4g logo' />
-      </div>
+      
+      <Footer/>
     </div>
 
 </div>
