@@ -2,6 +2,9 @@ import React from 'react'
 import Footer from '../components/Footer'
 import contactstyle from './styles/contact.css'
 
+const myName ="Sammydepoj"
+
+
 const contact = () => {
   return (
     <div className='contactPage'>
@@ -43,10 +46,11 @@ const contact = () => {
               placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
           </div>
 
+
           <div className="checkBoxLabel">
             <input className="user__agreement__check" type="checkbox" />
             <label className="user__agreement" htmlFor="userAgreement">
-              You agree to providing your data to Sammydepoj, who may
+              You agree to providing your data to {myName}, who may
               contact you.
             </label>
           </div>
