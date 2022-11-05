@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import contactstyle from './styles/contact.css'
 
-const myName ="Sammydepoj"
+const myName ="Adepoju Adeyemi Samuel"
 
 
 const contact = () => {
