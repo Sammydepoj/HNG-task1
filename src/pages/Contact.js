@@ -16,6 +16,7 @@ const contact = () => {
                 <div className='labelInput'>
                   <label htmlFor="firstName">First name</label>
                   <input
+                    required
                     type="text"
                     id="first_name"
                     placeholder="Enter your first name"
@@ -24,6 +25,7 @@ const contact = () => {
                 <div className='labelInput'>
                   <label htmlFor="lastName">Last name</label>
                   <input
+                    required
                     type="text"
                     id="last_name"
                     placeholder="Enter your last name"
@@ -33,12 +35,13 @@ const contact = () => {
 
           <div className='labelInput'>
             <label htmlFor="email">Email</label>
-            <input type="text" id="email" placeholder="yourname@email.com" />
+            <input type="email" id="email" required placeholder="yourname@email.com" />
           </div>
 
           <div className='labelInput'>
             <label htmlFor="message">Message</label>
             <textarea
+              required
               name=""
               id="message"
               rows={4}
@@ -48,13 +51,13 @@ const contact = () => {
 
 
           <div className="checkBoxLabel">
-            <input className="user__agreement__check" type="checkbox" />
-            <label className="user__agreement" htmlFor="userAgreement">
+            <input className="" type="checkbox" required/>
+            <label className="" htmlFor="userAgreement">
               You agree to providing your data to {myName}, who may
               contact you.
             </label>
           </div>
-          <button className="submitButton" id="btn__submit">
+          <button className="submitButton" type='submit' id="btn__submit">
             Send message
           </button>
         </form> 
